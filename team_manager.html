@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Sport Systems Online - Team Manager</title>
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+<script src="javascript/jquery.js" type="text/javascript"></script>
+<script src="javascript/jqueryslidemenu.js" type="text/javascript"></script>
+
+<!-- Cufon JavaScript Files -->
+<script src="javascript/cufon-yui.js" type="text/javascript"></script>
+<script src="javascript/kabel-font.js" type="text/javascript"></script>
+<script type="text/javascript">
+Cufon.replace('strong, h1, h2')
+</script>
+
+<!--[if IE 6]>
+<script type="text/javascript" src="javascript/DD_belatedPNG.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#wrapper, #logo, .jqueryslidemenu ul li ul, .jqueryslidemenu ul li ul li a, #bottom img,  #footer .boxes_holder .follow_twitter');
+</script>
+<![endif]--> 
+
+<!-- Galleriffic JavaScript Files -->
+<link rel="stylesheet" href="css/galleriffic-2.css" type="text/css" />
+<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+<script type="text/javascript" src="js/gallery-functions.js"></script>
+
+<!-- Cycle JavaScript Files -->
+<script type="text/javascript" src="javascript/jquery-cycle.js"></script>
+<script type="text/javascript">
+$(function() { 
+    $('.slider').after().cycle({
+        timeout: 3000,
+        before: onBefore,
+	   prev: ".prev",
+	   next: ".next"
+    }); 
+        function onBefore() {
+        $('.counter').html(this.title);
+    }
+});
+</script>
+
+<style type="text/css">
+.style1 {
+	text-align: center;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="wrapper">
+
+<div id="logo"></div><!--END logo-->
+  
+  <div id="myslidemenu" class="jqueryslidemenu">
+    <ul>
+      <li><a href="index.html">Home</a>
+					  
+		  </li>
+          <li><a href="about.html">About Us</a></li>
+		
+          <li><a href="services.html" class="current">Services</a>
+				<ul style="display: none; visibility: visible;">
+				  <li><a href="league_manager.html">League Manager</a></li>
+				  <li><a href="scheduler.html">Scheduler</a></li>
+				  <li><a href="team_manager.html">Team Manager</a></li>
+				  <li><a href="profile_manager.html">Profile Manager</a></li>
+				  <li><a href="online_registration.html">Online Registration</a></li>
+				</ul><!--END submenu services-->
+          </li>
+        
+          <li><a href="leagues.html">Leagues</a></li>
+          <li><a href="demo.html">Demo</a></li>
+          <li><a href="register.html">Register</a></li>
+          <li><a href="support.html">Support</a></li>
+          
+		  <li><a href="contact.asp">Contact</a></li>
+    </ul>
+  </div><!--END jqueryslidemenu-->
+  
+  <form id="search" name="search" method="post" action="#">
+    <input name="s" type="text" id="s" value="Search the site" onblur="if (this.value == ''){this.value = 'Search the site'; }" onfocus="if (this.value == 'Search the site') {this.value = ''; }" />
+    <input name="Submit" type="submit" class="search_button" value="Search" />
+  </form><!--END search-->
+  
+  <div id="container">
+    <div id="sidebar" style="width: 275px">
+      <h2 class="style1">Key Features</h2>
+      <div class="block">
+        <ul>
+          <li><a href="#">Online Registration & Payment</a></li>
+				<li><a href="#">Fully Customizable Online Forms</a></li>
+				<li><a href="#">Certified Real Time Credit Card Processing</a></li>
+				<li><a href="#">Automated Confirmations & Receipts</a></li>
+				<li><a href="#">Fully Integrated Shopping Cart</a></li>
+				<li><a href="#">Team Building & Game Scheduling</a></li>
+                <li><a href="#">Player & Volunteer Management Tools</a></li>
+                <li><a href="#">Membership Management</a></li>
+                <li><a href="#">Broadcast & Target Email</a></li>
+                <li><a href="#">Free Hosting, Support & Training</a></li>
+        </ul>
+      </div>
+      <h2 class="style1">Ultimate Sports Guides</h2>
+      <div class="block">
+        <ul>
+				<li><a href="http://www.soccer-tournament-guide.com/">The 
+				Ultimate Guide to Soccer Tournament</a></li>
+				<li>
+				<a href="http://www.soccer-tournament-guide.com/College-Showcase-Soccer-Tournament-Directory.html">
+				College Showcase Soccer Tournament Directory</a></li>
+				<li><a href="http://www.usafootball.com/jwc">IFAF Junior World 
+				Championship of American Football</a></li>
+				<li>
+				<a href="http://www.ehow.com/how_2087398_organize-little-league-baseball-tournament.html">
+				How to Organize a Little League Baseball Tournaments.</a></li>
+				<li>
+				<a href="http://www.thehockeysource.tv/sectionsourceknowledge/tournaments.php">
+				The Ultimate Resource for Minor Hockey</a></li>
+				<li><a href="http://www.kickball.com/">World Adult Kickball 
+				Association</a></li>
+			<li><a href="#">.</a></li>
+        </ul>
+      </div>
+      <div class="slider_holder">
+        <ul style="position: relative;" class="slider">
+          <li style="position: absolute; top: 0px; left: 0px; display: none;" title="1 of 3 Testimonial">
+            <div class="testimonial">
+              <p>SSO is creating something that will impact the market.  They understand the sports and the end user fustrations and looking forward in using this soccer league management application.
+			</p>
+			<span class="author">Cristian Cubillas</span>
+			<a href="#">www.cubillasinc.com/</a>	
+		</div>
+	</li>
+				
+	<li style="position: absolute; top: 0px; left: 0px; display: none;" title="2 of 3 Testimonial">
+		<div class="testimonial">			
+			<p>This is something I am looking foward in using with my team, in order, to better communicate with my players.
+			</p>
+			<span class="author">Victoria Fuentes</span>
+			<a href="#">www.wowmobileunlimited.net</a>
+		</div>
+	</li>
+				
+	<li style="position: absolute; top: 0px; left: 0px; display: none;" title="3 of 3 Testimonial">
+		<div class="testimonial">			
+			<p>This is an application we have been using for our league for about 2 years.  I am really looking forward to the new release.
+			</p>
+			<span class="author">Cesar Rodriguez</span>
+			<a href="#">www.ss4u.net</a>
+ </div>
+          </li>
+        </ul><!--END slider-->
+		
+        <div class="nav">
+          <div class="counter"></div>
+          <ul>
+            <li><a href="#" class="next"></a></li>
+            <li><a href="#" class="prev"></a></li>
+          </ul>
+        </div><!--END nav-->
+		
+      </div><!--END slider holder-->
+	  
+      <ul class="advertise">
+        <li><a href="http://www.ayso.org/home.aspx"><img src="images/advert1.jpg" alt="1" /></a></li>
+        <li><a href="http://www.fifa.com/worldcup/"><img src="images/advert2.jpg" alt="2" /></a></li>
+        <li><a href="http://www.ss4u.net/"><img src="images/advert3.jpg" alt="3" /></a></li>
+        <li><a href="http://www.ussoccer.com/"><img src="images/advert4.jpg" alt="4" /></a></li>
+      </ul><!--END advertise-->
+    </div><!--END sidebar-->
+	
+    <div id="portfolio-gallery">
+      <div id="gallery" class="content">
+        <div id="controls" class="controls"></div>
+        <div class="slideshow-container">
+          <div id="slideshow" class="slideshow"></div>
+        </div><!--END slideshow-container-->
+      </div><!--END gallery-->
+	  
+      <div id="thumbs">        <ul class="thumbs">
+          <li> <a class="thumb" href="images/img_small_thumb_port.jpg"> <img src="images/img_small_thumb_port.gif" alt="thumb 1" /> </a> </li>
+          <li> <a class="thumb" href="images/img_small_thumb_port2.jpg"> <img src="images/img_small_thumb_port2.gif" alt="thumb 2" /> </a> </li>
+          <li> <a class="thumb" href="images/img_small_thumb_port3.jpg"> <img src="images/img_small_thumb_port3.gif" alt="thumb 3" /></a> </li>
+          <li> <a class="thumb" href="images/img_small_thumb_port.jpg"> <img src="images/img_small_thumb_port.gif" alt="thumb 1" /> </a> </li>
+          <li> <a class="thumb" href="images/img_small_thumb_port2.jpg"> <img src="images/img_small_thumb_port2.gif" alt="thumb 2" /> </a> </li>
+          <li class="last"><a class="thumb" href="images/img_small_thumb_port3.jpg"> <img src="images/img_small_thumb_port3.gif" alt="thumb 3" /></a> </li>
+        </ul><!--END ul thumb-->
+      </div><!--END thumb-->
+    </div><!--END portfolio-gallery-->
+	
+    <div class="intro_longer">
+      <div> <strong>Team Manager</strong>
+        <p> Sport Systems Online will be dedicated to assisting team managers and coaches handle
+all aspects of running their teams. SSO will help track and organize team information such as team rosters, schedule, statistics and standings. <br /><br /><b>For that purpose, we offer the following functions:</b><br />
+<br />
+1. Different levels of accessibility that will be controlled by the team manager, coach & players. <Br />
+2. Summary Reports that will help track specific team and player statistics.<br />
+3. Provide a dynamic team calendar of league games and tournaments.<br />
+4. Manage financials on a per player and team basis.<br />
+<br />
+          </p>
+      </div>
+      <div> <strong>Technology - Ruby on Rails</strong>
+          <font FACE="Utopia-Regular" SIZE="2">
+		<p ALIGN="LEFT">There are a lot of programming languages out there. 
+		You’ve probably heard of many of them. C, C#, Lisp, Java, Smalltalk, 
+		PHP, and Python are popular choices. And then there are others you’ve 
+		probably never heard of: Haskel, IO, and maybe even Ruby. Like the 
+		others, Ruby is a programming language. You use it to write computer 
+		programs,</p>
+		<p ALIGN="LEFT">including, but certainly not limited to, web 
+		applications.</p>
+		<p ALIGN="LEFT">Before Rails came along, not many people were writing 
+		web applications with Ruby. Other languages like PHP and ASP were the 
+		dominant players in the field, and a large part of the web is powered by 
+		them. The fact that Rails uses Ruby is significant because Ruby is 
+		considerably more powerful that either PHP or ASP in terms of its 
+		abilities as a</p>
+		<p ALIGN="LEFT">programming language. This is largely another symptom of 
+		the web’s maturity. Now that it’s attracting a larger audience, more 
+		powerful languages and tools are falling into the fold.</p>
+		<p ALIGN="LEFT">&nbsp;</p>
+		<p ALIGN="LEFT">Invented by Yukihiro Matsumoto in 1994, it’s a wonder 
+		Ruby remained shrouded in obscurity for as long as it did. As far as 
+		programming languages go, Ruby is among the most beautiful. Interpreted 
+		and object-oriented, elegant and expressive, Ruby is truly a joy to work 
+		with. A large part of Rail’s grace owes to Ruby and to the culture and 
+		aesthetics</p>
+		<p ALIGN="LEFT">that permeate the Ruby community. As you begin to work 
+		with the framework, you’ll quickly learn that Ruby, like Rails, is rich 
+		with idioms and conventions, all of which make for an enjoyable, 
+		productive programming environment.</p>
+		<p ALIGN="LEFT">In summary, Ruby can be described as follows:</p>
+		<p ALIGN="LEFT">&nbsp;</p>
+		<p ALIGN="LEFT">• An interpreted, object-oriented scripting language</p>
+		<p ALIGN="LEFT">• Elegant, concise syntax</p>
+		<p ALIGN="LEFT">• Powerful metaprogramming features</p>
+		<p>• Well suited as a host language for creating DSLs</p>
+		<p>&nbsp;</p>
+		</font>
+      </div>
+      <div> <strong>Other Services</strong>
+          <ul>
+            <li>League Manager</li>
+			<li>Scheduler</li>
+			<li>Team Manager</li>
+			<li>Profile Manager</li>
+			<li>Online Registration</li>
+          </ul>
+      </div>
+    </div><!--END intro_longer-->
+  </div><!--END container-->
+  
+  <div id="bottom_holder">
+    <div id="bottom">
+      <div> <strong>About</strong>
+      <p>“Sport Systems Online (SSO) is a company that will revolutionize league management, by providing the best in class online solution.” <br />
+              <br />
+          </p>
+      </div><!--END div-->
+	  
+      <div class="second"> <strong>Contact</strong>
+          <p>General inquiries: 
+			<a href="mailto:info@sportsystemsonline.com?subject=SSO Info">info@sportsystemsonline.com</a></p>
+        <p>Support:visit the <a href="#">FAQs</a></p>
+        <ul>
+            <li><a href="#" onmouseover="Tip('Technorati')" onmouseout="UnTip()"><img src="images/socialize1.png" alt="1" /></a></li>
+          <li><a href="#" onmouseover="Tip('Stumbleupon')" onmouseout="UnTip()"><img src="images/socialize2.png" alt="2" /></a></li>
+          <li><a href="#" onmouseover="Tip('Flickr')" onmouseout="UnTip()"><img src="images/socialize3.png" alt="3" /></a></li>
+          <li><a href="#" onmouseover="Tip('Facebook')" onmouseout="UnTip()"><img src="images/socialize4.png" alt="4" /></a></li>
+          <li><a href="#" onmouseover="Tip('Reddit')" onmouseout="UnTip()"><img src="images/socialize5.png" alt="5" /></a></li>
+          <li><a href="#" onmouseover="Tip('Digg')" onmouseout="UnTip()"><img src="images/socialize6.png" alt="6" /></a></li>
+          <li><a href="#" onmouseover="Tip('Blogger')" onmouseout="UnTip()"><img src="images/socialize7.png" alt="7" /></a></li>
+          <li><a href="#" onmouseover="Tip('Delicious')" onmouseout="UnTip()"><img src="images/socialize8.png" alt="8" /></a></li>
+        </ul>
+      </div><!--END div second-->
+	  
+      <div class="last"><strong>Updates</strong>
+          <p>Our newsletter is awesome. Subscribe and get the latest updates.</p>
+        <form id="newsletter" name="newsletter" method="post" action="#">
+            <input name="text" type="text" id="n" onfocus="if (this.value == 'Enter your email') {this.value = ''; }" onblur="if (this.value == ''){this.value = 'Enter your email'; }" value="Enter your email" />
+            <input name="Submit" type="submit" class="newsletter_button" value="Subscribe" />
+          </form><!--END form-->
+		  
+      </div><!--END last-->
+    </div><!--END bottom-->
+  </div><!--END bottom holder-->
+</div><!--END wrapper-->
+
+<div id="footer">
+
+	<div class="boxes_holder">
+	  <a href="#" class="follow_twitter"></a>
+		<div class="box">
+			<h1>Location</h1>
+			<ul>
+				<li>12010 SW 26 Street</li>
+<li>Davie, FL 33325</li>
+				<li>P - 954 . 543 . 8991</li>
+				<li>F - 954 . 543 . 8991<br /><br /></li>
+				<li>E - info@sportsystemsonline.com</li>
+				<li>Skype - Sport Systems Online</li>
+			</ul><!--ENDS ul-->				
+		</div><!--END box-->
+		
+		<div class="box">
+			<h1>Other Benefits </h1>
+			<ul>
+				<li><a href="#">Sport management application</a></li>
+				<li><a href="#">League & tournament scheduling</a></li>
+				<li><a href="#">Back office data entry</a></li>
+				<li><a href="#">Program & league setup</a></li>
+				<li><a href="#">Mass email & address labels</a></li>
+				<li><a href="#">Financial reporting</a></li>
+				<li><a href="#">Volunteer background checks</a></li>
+				<li><a href="#">Website management</a></li>																					
+			</ul><!--ENDS ul-->
+		</div><!--END box-->
+		
+		<div class="box">
+			<h1>What`s New @ SSO </h1>
+			<ul>
+				<li><a href="#">Miramar Soccer Management</a></li>
+				<li><a href="#">Miami Dade Scheduling System</a></li>																					
+			</ul><!--END ul-->
+		</div><!--END box-->
+				
+		<div class="box">
+			<h1>Key Features</h1>
+			<ul>
+				<li><a href="#">Online Registration & Payment</a></li>
+				<li><a href="#">Fully Customizable Online Forms</a></li>
+				<li><a href="#">Certified Real Time Credit Card Processing</a></li>
+				<li><a href="#">Automated Confirmations & Receipts</a></li>
+				<li><a href="#">Fully Integrated Shopping Cart</a></li>
+				<li><a href="#">Team Building & Game Scheduling</a></li>
+                <li><a href="#">Player & Volunteer Management Tools</a></li>
+                <li><a href="#">Membership Management</a></li>
+                <li><a href="#">Broadcast & Target Email</a></li>
+                <li><a href="#">Free Hosting, Support & Training</a></li>																									
+			</ul><!--END ul-->
+		</div><!--END box-->
+		
+		<div class="boxes_holder_twitter">
+	  		<div class="box_twitter">
+				<p>Sport Systems Online - Revolutionizing the Sport with Online League Management<a href="#"></a></p>
+	      </div><!--END box_twitter-->
+		</div><!--END boxes_holder_twitter-->
+		
+		<div class="subfooter">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About Us</a></li>
+				<li><a href="#">Services</a></li>
+				<li><a href="#">Leagues</a></li>
+				<li><a href="#">Demo</a></li>
+				<li><a href="#">Register</a></li>
+                <li><a href="#">Support</a></li>
+                <li><a href="#">Contact</a></li>
+			</ul><!--?ND subfooter ul-->			<h3>Copyright © Sport Systems Online, All rights reserved.</h3>		
+		</div><!--END subfooter-->					
+	</div><!--END boxes holder-->
+</div><!--END footer-->
+
+<script language="javascript" type="text/javascript" src="javascript/wz_tooltip.js"></script>
+</body>
+</html>

@@ -1,0 +1,94 @@
+#tabMenu {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	color: #999999;
+	width: 640px;
+	float: left;
+}
+#tabMenu li {
+	float:left;
+	cursor:pointer;
+	height: 35px;
+	display: block;
+	width: 80px;
+	text-align: center;
+	font-size: 14px;
+	margin: 0px;
+	padding-top: 7px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+li.mouseout {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+li.selected {
+	background-position:center bottom;
+	background-image: url(../images/tab_selected.jpg);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+}
+
+
+
+.box {
+	width:650px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+}
+
+.boxBody {
+	margin: 0px;
+	width: 610px;
+	color: #FFFFFF;
+	float: left;
+	border-top-width: 4px;
+	border-top-style: solid;
+	border-top-color: #7aca47;
+	background-color: #7aca47;
+	padding: 20px;
+}
+.boxBody div {
+	display:none;
+	margin: 0px;
+	padding: 0px;
+}
+.boxBody div.show {
+	display:block;
+	margin: 0px;
+	padding: 0px;
+}
+.boxBody div img {
+	float: left;
+	background-color: #282828;
+	padding: 15px;
+	border: 1px solid #fff;
+	margin-top: 4px;
+}
+.boxBody p {
+	display: block;
+	float: left;
+	width: 505px;
+	padding-left: 20px;
+}
+
+
+
+.boxBody a {
+	display:block;
+	color: #4497a8;
+	padding-right: 3px;
+	padding-left: 3px;
+	padding-top: 0px;
+	padding-bottom: 4px;
+	font-weight: bold;
+}
+.boxBody a:hover {
+	text-decoration: none;
+	background-color: #EFEFEF;
+}

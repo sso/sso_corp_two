@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<cu3er>
+	<settings>
+		
+    	<prev_button>
+			<defaults round_corners="0,0,0,0"/>
+			<tweenOver tint="0xFFFFFF" scaleX="1.1" scaleY="1.1"/>
+			<tweenOut tint="0x000000" />
+		</prev_button>
+		
+    	<prev_symbol>
+			<tweenOver tint="0x000000" />
+		</prev_symbol>
+		
+    	<next_button>
+			<defaults round_corners="0,0,0,0"/>			
+			<tweenOver tint="0xFFFFFF"  scaleX="1.1" scaleY="1.1"/>
+			<tweenOut tint="0x000000" />
+		</next_button>
+		
+    	<next_symbol>
+			<tweenOver tint="0x000000" />
+		</next_symbol>	
+
+		<auto_play>
+		   <defaults  />
+		</auto_play>
+		
+      <description>
+          <tweenIn 
+		      round_corners="0, 0, 0, 0" 
+      
+    heading_font="Arial"
+    heading_text_size="2"
+    heading_text_color="0xFFFFFF"			
+    heading_text_margin="10, 0, 0,10"	
+
+    paragraph_font="Arial"
+    paragraph_text_size="13"
+    paragraph_text_color="0x000000"
+    paragraph_text_margin="0, 0, 0, 0"
+	width="500"
+	height="65"
+		  />
+      </description>
+		
+
+	</settings>    
+
+	<slides>
+	
+        <slide>
+            <url>images/CU3ER1.jpg</url> 
+            <description>        
+                <heading>Soccer Tournaments</heading>
+                <paragraph>Manage player registration, game scheduling and team statistics.</paragraph>
+            </description>
+        </slide>
+		
+		<!-- changing transition beetween first & second slide -->
+        <transition num="3" slicing="vertical" direction="down"/>
+        <slide>
+       		<url>images/CU3ER2.jpg</url>
+            <description>        
+                <heading>Football Tournaments</heading>
+                <paragraph>Manage player registration, game scheduling and team statistics.</paragraph>
+            </description>			
+        </slide>	
+			
+		<!-- changing transition beetween second & third slide -->
+        <transition num="4" direction="right" shader="flat" />
+		<slide>
+            <url>images/CU3ER3.jpg</url>
+            <description>        
+                <heading>Bolleyball Tournaments</heading>
+                <paragraph>Manage player registration, game scheduling and team statistics.</paragraph>
+            </description>			
+        </slide>
+		
+        <!-- transitions properties defined in transitions template -->
+		<slide>
+       		<url>images/CU3ER4.jpg</url>
+            <description>        
+                <heading>Basketball Tournaments</heading>
+                <paragraph>Manage player registration, game scheduling and team statistics.</paragraph>
+            </description>			
+        </slide>
+		
+		<transition num="6" slicing="vertical" direction="up" shader="flat" delay="0.05" z_multiplier="4" />
+        <slide>
+       		<url>images/CU3ER5.jpg</url>
+            <description>        
+                <heading>Hockey Tournaments</heading>
+                <paragraph>Manage player registration, game scheduling and team statistics.</paragraph>
+            </description>			
+        </slide>
+				
+	</slides>
+</cu3er>
+

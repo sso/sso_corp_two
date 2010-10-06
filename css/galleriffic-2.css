@@ -1,0 +1,198 @@
+div.content {
+	width: 650px;
+	margin: 0px;
+	padding: 0px;
+	height: 355px;
+	float: left;
+}
+#portfolio-gallery {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 650px;
+}
+
+div.content a, div.navigation a {
+	text-decoration: none;
+	width: 370px;
+}
+div.content a:hover {
+	text-decoration: underline;
+}
+div.controls {
+	margin: 0px;
+	padding: 0px;
+}
+div.controls a {
+	padding-right: 5px;
+	padding-left: 5px;
+}
+div.ss-controls {
+	float: left;
+}
+div.nav-controls {
+	float: right;
+}
+div.slideshow-container {
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	clear: both;
+}
+div.loader {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-image: url(../images/loader.gif);
+	background-repeat: no-repeat;
+	background-position: center; /* This should be set to be at least the height of the largest image in the slideshow */
+}
+div.slideshow {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+
+}
+div.slideshow span.image-wrapper {
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+div.slideshow a.advance-link {
+	display: block; /* This should be set to be at least the height of the largest image in the slideshow */
+	text-align: center;
+	width: 650px;
+}
+div.slideshow a.advance-link:hover, div.slideshow a.advance-link:active, div.slideshow a.advance-link:visited {
+	text-decoration: none;
+}
+div.slideshow img {
+	margin: 0px;
+	padding: 0px;
+	border: 5px solid #4D4D4D;
+	width: 640px;
+}
+div.download {
+	float: right;
+}
+div.caption-container {
+	position: relative;
+	height: 75px;
+	background-color: #FF0000;
+	float: left;
+	width: 300px;
+}
+span.image-caption {
+	display: block;
+	position: absolute;
+	width: 550px;
+	top: 0;
+	left: 0;
+}
+div.caption {
+	padding: 12px;
+	background-color: #00FF00;
+	height: 100px;
+	width: 300px;
+}
+div.image-title {
+	font-weight: bold;
+	font-size: 1.4em;
+}
+div.image-desc {
+	line-height: 1.3em;
+	padding-top: 12px;
+	background-color: #333333;
+}
+div#thumbs {
+	margin: 0px;
+	float: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 25px;
+	padding-left: 0px;
+}
+
+div.navigation {
+	margin: 0px;
+	padding: 0px;
+	width: 790px;
+	/* The navigation style is set using jQuery so that the javascript specific styles won't be applied unless javascript is enabled. */
+}
+ul.thumbs {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 650px;
+}
+ul.thumbs li {
+	float: left;
+	list-style: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding: 0px;
+	margin-right: 28px;
+}
+
+a.thumb {
+	padding: 0px;
+	display: block;
+	border: 5px solid #4D4D4D;
+	margin-bottom: 5px;
+}
+
+ul.thumbs li.selected a.thumb {
+	border: 5px solid #5e7592;
+}
+a.thumb:focus {
+	outline: none;
+}
+ul.thumbs img {
+	display: block;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+/*div.pagination {
+	clear: both;
+}
+div.navigation div.top {
+	margin-bottom: 12px;
+	height: 11px;
+}
+div.navigation div.bottom {
+	margin-top: 12px;
+}
+div.pagination a, div.pagination span.current, div.pagination span.ellipsis {
+	display: block;
+	float: left;
+	margin-right: 2px;
+	padding: 4px 7px 2px 7px;
+	border: 1px solid #ccc;
+	background-color: #CC6633;
+}
+div.pagination a:hover {
+	background-color: #eee;
+	text-decoration: none;
+}
+div.pagination span.current {
+	font-weight: bold;
+	background-color: #000;
+	border-color: #000;
+	color: #fff;
+}
+div.pagination span.ellipsis {
+	border: none;
+	padding: 5px 0 3px 2px;
+}*/
+ul.thumbs li.last {
+	float: left;
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}
